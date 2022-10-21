@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/Judul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:elegantTextHeight="true"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp" />
+
+
+    <TextView
+        android:id="@+id/NIM"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/Judul"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp"
+        android:text="A11.2021.13807"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/Nama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/NIM"
+        android:layout_centerInParent="true"
+        android:text="Thierry Widyatama Azhari"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="275dp"
+        android:layout_height="275dp"
+        android:layout_below="@id/Judul"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="30dp"
+        app:srcCompat="@drawable/thiefoto" />
+
+    <TextView
+        android:id="@+id/Hobi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/NoTelp"
+        android:layout_centerInParent="true"
+        android:text="Hobi: "
+        android:textSize="18dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_marginTop="-260dp" />
+
+    <TextView
+        android:id="@+id/Hob"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/NoTelp"
+        android:layout_centerInParent="true"
+        android:text="Editing Video"
+        android:textSize="18dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="-235dp" />
+
+    <TextView
+        android:id="@+id/Deskripsi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/NoTelp"
+        android:layout_centerInParent="true"
+        android:text="Deskripsi Singkat"
+        android:textSize="18dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_marginTop="-200dp" />
+
+    <TextView
+        android:id="@+id/DeskripsiSingkat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/NoTelp"
+        android:layout_centerInParent="true"
+        android:text="Saya suka mengikuti dunia teknologi"
+        android:gravity="center"
+        android:textSize="18dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="-175dp" />
+
+    <TextView
+        android:id="@+id/Emailalamat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Nama"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="450dp"
+        android:text="Alamat                                                          "
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/Email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Nama"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="450dp"
+        android:text="  NoTelp"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/Emailnotelp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Nama"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="450dp"
+        android:text="                                                              Email"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/Email1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Email"
+        android:layout_centerInParent="true"
+        android:textSize="18dp"
+        android:textColor="@color/black" />
+    <TextView
+        android:id="@+id/Email2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Email1"
+        android:layout_centerInParent="true"
+        android:textSize="18dp"
+        android:textColor="@color/black" />
+    <TextView
+        android:id="@+id/Telp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Email2"
+        android:layout_centerInParent="true"
+        android:textSize="18dp"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:textColor="@color/black" />
+    <TextView
+        android:id="@+id/NoTelp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Telp"
+        android:layout_centerInParent="true"
+        android:textSize="18dp"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/button_idalamat"
+        android:onClick="buttonalamat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/imageView3"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="214dp"
+        android:layout_marginBottom="33dp"
+        android:text="Alamat" />
+
+    <Button
+        android:id="@+id/button_idemail"
+        android:onClick="buttonclick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/imageView3"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="86dp"
+        android:layout_marginBottom="32dp"
+        android:text="NoTelp" />
+
+    <Button
+        android:id="@+id/button_idtelepom"
+        android:onClick="buttonemail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/imageView3"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="-46dp"
+        android:layout_marginBottom="31dp"
+        android:text="Email" />
+
+</RelativeLayout>
